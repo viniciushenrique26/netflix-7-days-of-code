@@ -122,3 +122,22 @@ body {
 .banner__btn i {
   margin-right: 0.5rem;
 }
+
+.caixa_minha_lista {
+}
+.minha_lista_titulo {
+  margin: 3em 0 0.5em 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Helvetica', sans-serif;
+}
+.minha_lista_link {
+}
+.minha_lista {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.minha_lista_poster {
+}
