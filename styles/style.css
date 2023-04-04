@@ -160,4 +160,157 @@ body {
   gap: 5px;
 }
 .minha_lista_poster {
+  max-width: 100%;
+  padding-right: 5px;
+}
+.category {
+  height: 200px;
+}
+
+.category__title {
+  color: #e5e5e5e5;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.sec {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 8px 0;
+}
+
+.item {
+  padding: 0 2px;
+  transition: 250ms all;
+}
+
+.-animation:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
+}
+
+.item img {
+  max-width: 100%;
+  padding-right: 5px;
+}
+
+.arrow__btn {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: rgb(0, 0, 0);
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.arrow__btn i {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.637);
+}
+
+.arrow__btn i:hover {
+  color: white;
+  transform: scale(1.15);
+}
+
+.arrow__btn:nth-of-type(1) {
+  top: -16px;
+  bottom: -10px;
+  left: 0;
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.arrow__btn:nth-of-type(2) {
+  top: -16px;
+  bottom: -10px;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.social-links {
+  height: 25px;
+  width: 50%;
+}
+
+.social-links i {
+  font-size: 22px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+.link-content {
+  margin: 20px auto;
+  color: grey;
+}
+
+.link-content__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+}
+
+.link-content__info ul {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  padding: initial;
+}
+
+.link-content__info ul li {
+  list-style: none;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.link-content__info ul li:hover {
+  text-decoration: underline;
+}
+
+.link-content__service {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.link-content__service-code {
+  background: 0 0;
+  color: grey;
+  border: solid 1px grey;
+  padding: 0.5rem;
+}
+
+.link-content__service-code:hover {
+  color: white;
+  border: solid 1px white;
+}
+
+.link-content__copyright {
+  font-size: 11px;
+  margin-bottom: 15px;
+  padding: 1rem 4px;
 }
